@@ -1,6 +1,6 @@
 # rtorrent
 
-> Download torrents over the command-line.
+> Download torrents.
 > More information: <https://github.com/rakshasa/rtorrent>.
 
 - Add a torrent file or magnet to be downloaded:
@@ -9,12 +9,12 @@
 
 - Start the download:
 
-`<Ctrl>S`
+`<Ctrl s>`
 
 - View details about downloading torrent:
 
-`->`
+`<ArrowRight>`
 
 - Close rtorrent safely:
 
-`<Ctrl>Q`
+`<Ctrl q>`

@@ -1,6 +1,6 @@
 # bzgrep
 
-> Find patterns in bzip2 compressed files using grep.
+> Find patterns in `bzip2` compressed files using `grep`.
 > More information: <https://manned.org/bzgrep>.
 
 - Search for a pattern within a compressed file:
@@ -27,6 +27,6 @@
 
 `bzgrep --recursive "{{search_pattern}}" {{path/to/tar/file}}`
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `cat {{/path/to/bz/compressed/file}} | bzgrep --invert-match "{{search_pattern}}"`

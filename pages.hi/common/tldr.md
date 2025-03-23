@@ -1,7 +1,7 @@
 # tldr
 
 > tldr-pages प्रोजेक्ट से कमांड-लाइन टूल्स के लिए सरल हेल्प पेज प्रदर्शित करता है।
-> अधिक जानकारी: <https://tldr.sh>।
+> अधिक जानकारी: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>।
 
 - एक कमांड के विशिष्ट उपयोग प्राप्त करें (संकेत: इसका उपयोग कर आप यहाँ आए!):
 
@@ -9,7 +9,7 @@
 
 - Linux के लिए tar tldr पेज दिखाएं:
 
-`tldr -p {{linux}} {{tar}}`
+`tldr {{[-p|--platform]}} {{linux}} {{tar}}`
 
 - एक Git उपकमांड के लिए सहायता प्राप्त करें:
 
@@ -17,4 +17,4 @@
 
 - स्थानीय पृष्ठों को अपडेट करें (यदि ग्राहक कैशिंग का समर्थन करता है):
 
-`tldr -u`
+`tldr {{[-u|--update]}}`

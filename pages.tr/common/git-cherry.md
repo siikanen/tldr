@@ -1,11 +1,11 @@
 # git cherry
 
 > Ana depoya aktarılması gereken commit'leri bul.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-cherry>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry>.
 
 - Commit'leri (ve mesajlarını) ana akımda kendilerine tekabül eden commit'ler ile göster:
 
-`git cherry -v`
+`git cherry {{[-v|--verbose]}}`
 
 - Farklı bir ana akım ve konu dalı belirt:
 

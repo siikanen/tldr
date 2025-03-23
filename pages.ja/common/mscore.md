@@ -1,7 +1,6 @@
 # mscore
 
-> このコマンドは `musescore` のエイリアスです.
-> 詳しくはこちら: <https://musescore.org/handbook/command-line-options>
+> このコマンドは `musescore` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

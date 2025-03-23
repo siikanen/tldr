@@ -1,11 +1,8 @@
 # pacman --remove
 
 > Arch Linux Paketverwaltungs-Werkzeug.
-> Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe für diesen Unterbefehl an:
-
-`pacman --remove --help`
+> Siehe auch: `pacman`.
+> Weitere Informationen: <https://manned.org/pacman.8>.
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
@@ -30,3 +27,7 @@
 - Liste Pakete auf, welche betroffen sein würden (entfernt keine Pakete):
 
 `pacman --remove --print {{paketname}}`
+
+- Zeige Hilfe für diesen Unterbefehl an:
+
+`pacman --remove --help`

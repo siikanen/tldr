@@ -7,7 +7,7 @@
 
 `bluetoothd`
 
-- Start the daemon, logging to stdout:
+- Start the daemon, logging to `stdout`:
 
 `bluetoothd --nodetach`
 
@@ -15,10 +15,10 @@
 
 `bluetoothd --configfile {{path/to/file}}`
 
-- Start the daemon with verbose output to stderr:
+- Start the daemon with verbose output to `stderr`:
 
 `bluetoothd --debug`
 
 - Start the daemon with verbose output coming from specific files in the bluetoothd or plugins source:
 
-`bluetoothd --debug={{path/to/file1}}:{{path/to/file2}}:{{path/to/file3}}`
+`bluetoothd --debug={{path/to/file1:path/to/file2:...}}`

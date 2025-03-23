@@ -1,7 +1,7 @@
 # git instaweb
 
 > gitweb sunucusu başlatmak için yardımcı araç.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-instaweb>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-instaweb>.
 
 - Mevcut Git deposu için bir gitweb sunucusu başlat:
 
@@ -15,7 +15,7 @@
 
 `git instaweb --start --port {{1234}}`
 
-- Belirtilmiş bir http daemon'u kullan:
+- Belirtilmiş bir HTTP daemon'u kullan:
 
 `git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 

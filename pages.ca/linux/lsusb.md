@@ -9,15 +9,11 @@
 
 - Llista la jerarquia de dispositius USB en forma d'arbre:
 
-`lsusb -t`
+`lsusb {{[-t|--tree]}}`
 
 - Llista tots els disposititus USB de forma verbosa:
 
-`lsusb --verbose`
-
-- Llista informació detallada sobre un dispositiu USB determinat:
-
-`lsusb -D {{dispositiu}}`
+`lsusb {{[-V|--verbose]}}`
 
 - Llista només dispositius amb un ID d'assemblador i producte determinat:
 

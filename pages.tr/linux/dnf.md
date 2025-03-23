@@ -1,7 +1,7 @@
 # dnf
 
 > RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır).
-> Daha fazla bilgi: <https://dnf.readthedocs.io>.
+> Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
 - Kurulu paketleri kullanılabilir en yeni sürümlere yükselt:
 
@@ -9,7 +9,7 @@
 
 - Anahtar kelimeler kullanarak paket ara:
 
-`dnf search {{anahtar_kelimeler}}`
+`dnf search {{anahtar_kelimeler1 anahtar_kelimeler2 ...}}`
 
 - Bir paketin ayrıntılarını göster:
 
@@ -17,15 +17,11 @@
 
 - Yeni bir paket kur:
 
-`sudo dnf install {{paket}}`
-
-- Yeni bir paket kur ve tüm soruları otomatik evet olarak yanıtla:
-
-`sudo dnf -y install {{paket}}`
+`sudo dnf install {{paket1 paket2 ...}}`
 
 - Bir paketi kaldır:
 
-`sudo dnf remove {{paket}}`
+`sudo dnf remove {{paket1 paket2 ...}}`
 
 - Kurulu paketleri listele:
 

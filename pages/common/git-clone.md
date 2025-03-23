@@ -3,11 +3,7 @@
 > Clone an existing repository.
 > More information: <https://git-scm.com/docs/git-clone>.
 
-- Clone an existing repository:
-
-`git clone {{remote_repository_location}}`
-
-- Clone an existing repository into a specific directory:
+- Clone an existing repository into a new directory (the default directory is the repository name):
 
 `git clone {{remote_repository_location}} {{path/to/directory}}`
 
@@ -15,13 +11,17 @@
 
 `git clone --recursive {{remote_repository_location}}`
 
+- Clone only the `.git` directory of an existing repository:
+
+`git clone {{[-n|--no-checkout]}} {{remote_repository_location}}`
+
 - Clone a local repository:
 
-`git clone -l {{path/to/local/repository}}`
+`git clone {{[-l|--local]]} {{path/to/local/repository}}`
 
 - Clone quietly:
 
-`git clone -q {{remote_repository_location}}`
+`git clone {{[-q|--quiet]}} {{remote_repository_location}}`
 
 - Clone an existing repository only fetching the 10 most recent commits on the default branch (useful to save time):
 
@@ -29,8 +29,8 @@
 
 - Clone an existing repository only fetching a specific branch:
 
-`git clone --branch {{name}} --single-branch {{remote_repository_location}}`
+`git clone {{[-b|--branch]}} {{name}} --single-branch {{remote_repository_location}}`
 
 - Clone an existing repository using a specific SSH command:
 
-`git clone --config core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`
+`git clone {{[-c|--config]}} core.sshCommand="{{ssh -i path/to/private_ssh_key}}" {{remote_repository_location}}`

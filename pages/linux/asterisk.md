@@ -1,14 +1,13 @@
 # asterisk
 
-> Telephone and exchange (phone) server.
-> Used for running the server itself, and managing an already running instance.
-> More information: <https://wiki.asterisk.org/wiki/display/AST/Home>.
+> Run and manage telephone and exchange (phone) server instances.
+> More information: <https://docs.asterisk.org>.
 
-- [R]econnect to a running server, and turn on logging 3 levels of [v]erbosity:
+- [r]econnect to a running server, and turn on logging 3 levels of [v]erbosity:
 
 `asterisk -r -vvv`
 
-- [R]econnect to a running server, run a single command, and return:
+- [r]econnect to a running server, run a single command, and return:
 
 `asterisk -r -x "{{command}}"`
 

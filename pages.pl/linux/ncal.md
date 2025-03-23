@@ -1,8 +1,7 @@
 # ncal
 
-> Te polecenie jest aliasem `cal`.
-> Więcej informacji: <https://manned.org/ncal>.
+> To polecenie jest aliasem `cal`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr cal`

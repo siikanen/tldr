@@ -1,7 +1,7 @@
 # doxygen
 
 > Un sistema di documentazione per diversi linguaggi di programmazione.
-> Maggiori informazioni: <http://www.doxygen.nl>.
+> Maggiori informazioni: <https://www.doxygen.nl>.
 
 - Genera il modello di configurazione di default `Doxyfile`:
 
@@ -9,8 +9,8 @@
 
 - Genera un modello di file di configurazione:
 
-`doxygen -g {{percorso/a/file_config}}`
+`doxygen -g {{percorso/del/file_config}}`
 
 - Genera la documentazione utilizzando un file di configurazione esistente:
 
-`doxygen {{percorso/a/file_config}}`
+`doxygen {{percorso/del/file_config}}`

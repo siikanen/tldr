@@ -8,14 +8,26 @@
 
 `git status`
 
-- Give output in [s]hort format:
+- Give output in short format:
 
-`git status -s`
+`git status {{[-s|--short]}}`
+
+- Show verbose information on changes in both the staging area and working directory:
+
+`git status {{[-vv|--verbose --verbose]}}`
+
+- Show the branch and tracking info:
+
+`git status {{[-b|--branch]}}`
+
+- Show output in short format along with branch info:
+
+`git status {{[-sb|--short --branch]}}`
+
+- Show the number of entries currently stashed away:
+
+`git status --show-stash`
 
 - Don't show untracked files in the output:
 
-`git status --untracked-files=no`
-
-- Show output in [s]hort format along with [b]ranch info:
-
-`git status -sb`
+`git status {{[-uno|--untracked-files=no]}}`

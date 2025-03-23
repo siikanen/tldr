@@ -1,7 +1,8 @@
 # tig
 
-> A text-mode interface for Git.
-> More information: <https://github.com/jonas/tig>.
+> A configurable `ncurses`-based TUI for Git.
+> See also: `gitui`, `git-gui`.
+> More information: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Show the sequence of commits starting from the current one in reverse chronological order:
 
@@ -13,7 +14,7 @@
 
 - Show the history of specific files or directories:
 
-`tig {{path1 path2 …}}`
+`tig {{path1 path2 ...}}`
 
 - Show the difference between two references (such as branches or tags):
 
@@ -26,3 +27,7 @@
 - Start in stash view, displaying all saved stashes:
 
 `tig stash`
+
+- Display help in TUI:
+
+`<h>`

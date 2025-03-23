@@ -1,10 +1,10 @@
 # colorpicker
 
 > A minimalist X11 colorpicker.
-> Any mouse gesture except left click will exit the program.
+> Any mouse gesture except `<LeftClick>` will exit the program.
 > More information: <https://github.com/ym1234/colorpicker>.
 
-- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to stdout:
+- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to `stdout`:
 
 `colorpicker`
 

@@ -2,7 +2,7 @@
 
 > 보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다.
 > SIGKILL과 SIGSTOP을 제외한 모든 시그널들은 깔끔한 종료를 위해 프로세스에게 뺏길 수 있습니다.
-> 더 많은 정보: <https://manned.org/kill>.
+> 더 많은 정보: <https://manned.org/kill.1posix>.
 
 - 기본 SIGTERM ("terminate") 시그널을 보내 프로그램을 종료:
 
@@ -20,7 +20,7 @@
 
 `kill -{{1|HUP}} {{프로세스_아이디}}`
 
-- SIGINT ("interrupt") 시그널을 사용해서 프로그램을 종료. 이건 일반적으로 사용자가 `Ctrl + c`를 누를 때 일어나는 일과 같음:
+- SIGINT ("interrupt") 시그널을 사용해서 프로그램을 종료. 이건 일반적으로 사용자가 `<Ctrl c>`를 누를 때 일어나는 일과 같음:
 
 `kill -{{2|INT}} {{프로세스_아이디}}`
 

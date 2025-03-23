@@ -1,11 +1,11 @@
 # ffsend
 
-> Easily and securely share files from command-line.
+> Easily and securely share files.
 > More information: <https://gitlab.com/timvisee/ffsend>.
 
 - Upload a file:
 
-`ffsend upload {{file}}`
+`ffsend upload {{path/to/file}}`
 
 - Download a file:
 
@@ -13,12 +13,12 @@
 
 - Upload a file with password:
 
-`ffsend upload {{file}} -p {{password}}`
+`ffsend upload {{path/to/file}} {{[-p|--password]}} {{password}}`
 
 - Download a file protected by password:
 
-`ffsend download {{file}} -p {{password}}`
+`ffsend download {{url}} {{[-p|--password]}} {{password}}`
 
 - Upload a file and allow 4 downloads:
 
-`ffsend upload {{file}} -d {{4}}`
+`ffsend upload {{path/to/file}} {{[-d|--downloads]}} {{4}}`

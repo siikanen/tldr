@@ -1,28 +1,36 @@
 # ls
 
-> Listar o conteúdo de um diretório.
-> Mais informações: <https://www.gnu.org/software/coreutils/ls>.
+> Lista o conteúdo de um diretório.
+> Mais informações: <https://www.gnu.org/software/coreutils/manual/html_node/ls-invocation.html>.
 
-- Listar todos os arquivos, apresentando um arquivo por linha:
+- Lista arquivos um por linha:
 
 `ls -1`
 
-- Listar todos os arquivos, incluindo arquivos ocultos:
+- Lista todos os arquivos, incluindo arquivos ocultos:
 
-`ls -a`
+`ls {{[-a|--all]}}`
 
-- Listar todos os arquivos, exibindo permissões, propriedade, tamanho e data de modificação:
+- Lista todos os arquivos, com o final `/` adicionado aos nomes dos diretórios:
 
-`ls -la`
+`ls {{[-F|--classify]}}`
 
-- Listar todos os arquivos, apresentando o tamanho em medidas legíveis por humanos (KiB, MiB, GiB):
+- Lista todos os arquivos em formato longo (permissões, dono, tamanho e data de modificação):
 
-`ls -lh`
+`ls {{[-la|--all -l]}}`
 
-- Listar todos os arquivos ordenados por tamanho (descendente):
+- Lista em formato longo com tamanho exibido usando unidades legíveis para humanos (KiB, MiB, GiB):
 
-`ls -lS`
+`ls {{[-lh|-l --human-readable]}}`
 
-- Listar todos os arquivos ordenados por data de modificação (mais antigos primeiro):
+- Lista em formato longo ordenados por tamanhos (decrescente):
 
-`ls -ltr`
+`ls {{-lSR|-lS --recursive}}`
+
+- Lista todos os arquivos em formato longo, ordenados por data de modificação (mais antigo primeiro):
+
+`ls {{[-ltr|-lt --reverse]}}`
+
+- Lista apenas diretórios:
+
+`ls {{[-d|--directory]}} */`

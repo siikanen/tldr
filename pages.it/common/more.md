@@ -1,7 +1,7 @@
 # more
 
 > Aprire un file per la lettura interattiva, con scorrimento e ricerca.
-> Maggiori informazioni: <https://manned.org/more>.
+> Maggiori informazioni: <https://manned.org/more.1p>.
 
 - Apri un file:
 
@@ -19,14 +19,14 @@
 
 `<Spazio>`
 
-- Cerca una stringa (tocca `n` per passare alla corrispondenza successiva):
+- Cerca una stringa (tocca `<n>` per passare alla corrispondenza successiva):
 
-`/{{qualcose}}`
+`</>{{qualcose}}<Enter>`
 
 - Smettere:
 
-`q`
+`<q>`
 
 - Mostra aiuto per comando interattivo:
 
-`h`
+`<h>`

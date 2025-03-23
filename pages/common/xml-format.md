@@ -1,7 +1,7 @@
 # xml format
 
 > Format an XML document.
-> More information: <http://xmlstar.sourceforge.net/docs.php>.
+> More information: <https://xmlstar.sourceforge.net/docs.php>.
 
 - Format an XML document, indenting with tabs:
 
@@ -15,7 +15,7 @@
 
 `xml format --recover --noindent {{path/to/malformed.xml|URI}} > {{path/to/recovered.xml}}`
 
-- Format an XML document from stdin, removing the `DOCTYPE` declaration:
+- Format an XML document from `stdin`, removing the `DOCTYPE` declaration:
 
 `cat {{path\to\input.xml}} | xml format --dropdtd > {{path/to/output.xml}}`
 
@@ -23,6 +23,6 @@
 
 `xml format --omit-decl {{path\to\input.xml|URI}} > {{path/to/output.xml}}`
 
-- Display help for the `format` subcommand:
+- Display help:
 
 `xml format --help`

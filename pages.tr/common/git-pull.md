@@ -1,7 +1,7 @@
 # git pull
 
 > Uzak bir depodan dal getir ve yerel depo ile birleştir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-pull>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-pull>.
 
 - Varsayılan uzak depodan değişiklikleri indir ve birleştir:
 
@@ -9,7 +9,7 @@
 
 - Varsayılan uzak depodan değişiklikleri indir ve ileri sarmayı kullan:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Belirtilen uzak depodan ve daldan değişiklikleri indir, ve sonra onları HEAD ile birleştir:
 

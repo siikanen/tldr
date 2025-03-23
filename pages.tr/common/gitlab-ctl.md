@@ -1,7 +1,7 @@
 # gitlab-ctl
 
 > Çok amaçlı GitLab yönetim CLI aracı.
-> Daha fazla bilgi: <https://docs.gitlab.com/omnibus/maintenance/>.
+> Daha fazla bilgi için: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Tüm servislerin durumunu görüntüle:
 
@@ -19,7 +19,7 @@
 
 `sudo gitlab-ctl restart {{nginx}}`
 
-- Tüm servislerin kaydını görüntüle ve `Ctrl + C` basılana kadar okumaya devam et:
+- Tüm servislerin kaydını görüntüle ve `<Ctrl c>` basılana kadar okumaya devam et:
 
 `sudo gitlab-ctl tail`
 

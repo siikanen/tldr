@@ -1,24 +1,20 @@
 # touch
 
-> Change a file access and modification times (atime, mtime).
-> More information: <https://www.gnu.org/software/coreutils/touch>.
+> Create files and set access/modification times.
+> More information: <https://manned.org/touch>.
 
-- Create a new empty file(s) or change the times for existing file(s) to current time:
+- Create specific files:
 
-`touch {{path/to/file}}`
+`touch {{path/to/file1 path/to/file2 ...}}`
 
-- Set the times on a file to a specific date and time:
+- Set the file [a]ccess or [m]odification times to the current one and don't create file if it doesn't exist:
 
-`touch -t {{YYYYMMDDHHMM.SS}} {{path/to/file}}`
+`touch {{[-c|--no-create]}} -{{a|m}} {{path/to/file1 path/to/file2 ...}}`
 
-- Set the time on a file to one hour in the past:
+- Set the file [t]ime to a specific value and don't create file if it doesn't exist:
 
-`touch -d "{{-1 hour}}" {{path/to/file}}`
+`touch {{[-c|--no-create]}} -t {{YYYYMMDDHHMM.SS}} {{path/to/file1 path/to/file2 ...}}`
 
-- Use the times from a file to set the times on a second file:
+- Set the files' timestamp to the reference file's timestamp, and do not create the file if it does not exist:
 
-`touch -r {{path/to/file1}} {{path/to/file2}}`
-
-- Create multiple files:
-
-`touch {{path/to/file{1,2,3}.txt}}`
+`touch {{[-c|--no-create]}} {{[-r|--reference]}} {{path/to/reference_file}} {{path/to/file1 path/to/file2 ...}}`

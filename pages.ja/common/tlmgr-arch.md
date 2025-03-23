@@ -1,7 +1,6 @@
-# tlmgr-arch
+# tlmgr arch
 
-> このコマンドは `tlmgr platform` のエイリアスです.
-> 詳しくはこちら: <https://www.tug.org/texlive/tlmgr.html>
+> このコマンドは `tlmgr platform` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

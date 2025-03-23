@@ -9,24 +9,24 @@
 
 - Quit:
 
-`alt + q or ctrl + c`
+`{{<Alt q>|<Ctrl c>}}`
 
 - Show actions menu:
 
-`alt + a`
+`<Alt a>`
 
 - Jump to n-th window:
 
-`alt + {{number_key}}`
+`<Alt {{Number}}>`
 
 - Close current window:
 
-`alt + c`
+`<Alt c>`
 
-- Start moving a window, use arrow keys to move, press escape when done:
+- Start moving a window, use `<ArrowKeys>` to move, press `<Esc>` when done:
 
-`alt + m`
+`<Alt m>`
 
-- Start resizing a window, use arrow keys to resize, press escape when done:
+- Start resizing a window, use `<ArrowKeys>` to resize, press `<Esc>` when done:
 
-`alt + r`
+`<Alt r>`

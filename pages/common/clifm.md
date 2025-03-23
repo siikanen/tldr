@@ -1,6 +1,7 @@
 # clifm
 
-> The command line file manager.
+> The command-line file manager.
+> See also: `vifm`, `ranger`, `mc`, `nautilus`.
 > More information: <https://github.com/leo-arch/clifm>.
 
 - Start CliFM:
@@ -13,24 +14,24 @@
 
 - Create a new file and a new directory:
 
-`n file dir/`
+`<n>file dir/`
 
 - Search for PDF files in the current directory:
 
-`/*.pdf`
+`</>*.pdf`
 
 - Select all PNG files in the current directory:
 
-`s *.png`
+`<s> *.png`
 
-- Remove the previously selected files (use `t` to send the files to the recycle bin instead):
+- Remove the previously selected files (use `<t>` to send the files to the recycle bin instead):
 
-`r sel`
+`<r>sel`
 
-- Display detailed help:
+- Display help:
 
-`?`
+`<?>`
 
 - Exit CliFM:
 
-`q`
+`<q>`

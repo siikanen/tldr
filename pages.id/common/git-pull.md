@@ -1,6 +1,6 @@
 # git pull
 
-> Tarik cabang dari repositori remote and menggabungkan ke repositori lokal
+> Tarik cabang dari repositori remote and menggabungkan ke repositori lokal.
 > Informasi lebih lanjut: <https://git-scm.com/docs/git-pull>.
 
 - Unduh perubahan dari bawaan repositori remote dan menggabungkannya:
@@ -9,7 +9,7 @@
 
 - Unduh perubahan dari bawaan repositori remote dan menggunakan maju cepat:
 
-`git pull --rebase`
+`git pull {{[-r|--rebase]}}`
 
 - Unduh perubahan dari repositori remote dan cabang yang diberikan, kemudian menggabungkannya ke HEAD:
 

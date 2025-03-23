@@ -1,13 +1,13 @@
 # security
 
 > Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security.
-> Więcej informacji: <https://ss64.com/osx/security.html>.
+> Więcej informacji: <https://keith.github.io/xcode-man-pages/security.1.html>.
 
 - Wypisz wszystkie dostępne pęki kluczy:
 
 `security list-keychains`
 
-- Usuń zadany pęk kluczy
+- Usuń zadany pęk kluczy:
 
 `security delete-keychain {{ścieżka/do/pliku.keychain}}`
 

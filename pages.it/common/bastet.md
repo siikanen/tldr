@@ -9,24 +9,24 @@
 
 - Sposta il pezzo a sinistra o a destra:
 
-`{{Sinistra|Destra}} freccia`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Ruota in senso orario o inverso:
 
-`{{Spazio|tasto freccia su}}`
+`{{<Space>|<ArrowUp>}}`
 
 - Caduta lenta:
 
-`tasto freccia giù`
+`<ArrowDown>`
 
 - Caduta veloce:
 
-`Invio`
+`<Enter>`
 
 - Pausa:
 
-`p`
+`<p>`
 
 - Lasciare il gioco:
 
-`Ctrl + C`
+`<Ctrl c>`

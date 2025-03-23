@@ -1,23 +1,23 @@
 # wc
 
-> Zlicza linie, słowa, i bajty
-> Więcej informacji: <https://www.gnu.org/software/coreutils/wc>.
+> Zlicza linie, słowa, i bajty.
+> Więcej informacji: <https://www.gnu.org/software/coreutils/manual/html_node/wc-invocation.html>.
 
-- Policz linie w pliku
+- Policz linie w pliku:
 
-`wc -l {{plik}}`
+`wc {{[-l|--lines]}} {{plik}}`
 
 - Policz słowa w pliku:
 
-`wc -w {{plik}}`
+`wc {{[-w|--words]}} {{plik}}`
 
 - Policz znaki (bajty) w pliku:
 
-`wc -c {{plik}}`
+`wc {{[-c|--bytes]}} {{plik}}`
 
 - Policz znaki w pliku (uwzględniając znaki zapisane więcej niż jednym bajtem):
 
-`wc -m {{plik}}`
+`wc {{[-m|--chars]}} {{plik}}`
 
 - Użyj standardowego wejścia aby policzyć po kolei linie, słowa, i znaki (bajty):
 
@@ -25,4 +25,4 @@
 
 - Policz długość najdłuższej linii w pliku:
 
-`wc --max-line-length {{plik}}`
+`wc {{[-L|--max-line-length]}} {{plik}}`

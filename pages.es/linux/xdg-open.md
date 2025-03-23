@@ -11,9 +11,9 @@
 
 `xdg-open {{https://www.ejemplo.es}}`
 
-- Abre una image en el visor de imágenes predeterminado:
+- Abre una imagen en el visor de imágenes predeterminado:
 
-`xdg-open {{ruta/al/imagen}}`
+`xdg-open {{ruta/a_la/imagen}}`
 
 - Abre un PDF en el visor de PDF predeterminado:
 

@@ -1,6 +1,6 @@
 # pass
 
-> Tool for storing and reading passwords or other sensitive data.
+> Store and read passwords or other sensitive data.
 > All data is GPG-encrypted, and managed with a Git repository.
 > More information: <https://www.passwordstore.org>.
 
@@ -8,7 +8,7 @@
 
 `pass init {{gpg_id_1}} {{gpg_id_2}}`
 
-- Save a new password and additional information (press Ctrl + D on a new line to complete):
+- Save a new password and additional information (press `<Ctrl d>` on a new line to complete):
 
 `pass insert --multiline {{path/to/data}}`
 

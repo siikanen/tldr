@@ -9,13 +9,13 @@
 
 - Wyświetl informację o konkretnej właściwości:
 
-`getprop {{prop}}`
+`getprop {{właściwość}}`
 
-- Wyświetl wersję SDK API:
+- Wyświetl wersję API SDK:
 
 `getprop {{ro.build.version.sdk}}`
 
-- Wyświetl wersję Android:
+- Wyświetl wersję Androida:
 
 `getprop {{ro.build.version.release}}`
 
@@ -23,10 +23,10 @@
 
 `getprop {{ro.vendor.product.model}}`
 
-- Wyświetl status odblokowania OEM:
+- Wyświetl status odblokowania OEMu:
 
 `getprop {{ro.oem_unlock_supported}}`
 
-- Wyświetl adres MAC karty Wi-Fi systemu Android
+- Wyświetl adres MAC karty Wi-Fi systemu Android:
 
 `getprop {{ro.boot.wifimacaddr}}`

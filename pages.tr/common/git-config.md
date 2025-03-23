@@ -2,7 +2,7 @@
 
 > Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet.
 > Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-config>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
 
 - Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
 
@@ -11,10 +11,6 @@
 - Yalnızca (bilgisayardaki `~/.gitconfig`'de saklanan) evrensel konfigürasyon kayıtlarını sırala:
 
 `git config --list --global`
-
-- Yerel veya evrensel olarak tanımlanan tüm konfigürasyon kayıtlarını sırala:
-
-`git config --list`
 
 - Belirtilen bir konfigürasyon kaydının değerini öğren:
 

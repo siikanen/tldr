@@ -1,16 +1,16 @@
 # az vm
 
 > Manage virtual machines in Azure.
-> Part of `az`, the command-line client for Microsoft Azure.
+> Part of `azure-cli` (also known as `az`).
 > More information: <https://learn.microsoft.com/cli/azure/vm>.
 
-- List details of available Virtual Machines:
+- Display a table of available Virtual Machines:
 
-`az vm list`
+`az vm list --output table`
 
-- Create an `UbuntuServer 18.04 LTS` Virtual Machine and generate ssh keys:
+- Create a virtual machine using the default Ubuntu image and generate SSH keys:
 
-`az vm create --resource-group {{rg}} --name {{vm_name}} --image {{Canonical:UbuntuServer:18.04-LTS:latest}} --admin-user {{azureuser}} --generate-ssh-keys`
+`az vm create --resource-group {{rg}} --name {{vm_name}} --image {{UbuntuLTS}} --admin-user {{azureuser}} --generate-ssh-keys`
 
 - Stop a Virtual Machine:
 

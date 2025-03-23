@@ -13,7 +13,7 @@
 
 - Esegui tutti i test di una specifica suite:
 
-`behat --suite={{nome_suite}}`
+`behat --suite {{nome_suite}}`
 
 - Esegui i test con uno specifico formato di output:
 
@@ -21,7 +21,7 @@
 
 - Esegui i testi e scrivi i risultati in un file:
 
-`behat --out {{percorso/a/file}}`
+`behat --out {{percorso/del/file}}`
 
 - Mostra una lista delle definizioni nelle suite di test:
 

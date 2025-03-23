@@ -7,10 +7,10 @@
 
 `autoconf`
 
-- Generate a configuration script from the specified template; output to stdout:
+- Generate a configuration script from the specified template; output to `stdout`:
 
 `autoconf {{template-file}}`
 
 - Generate a configuration script from the specified template (even if the input file has not changed) and write the output to a file:
 
-`autoconf --force --output={{outfile}} {{template-file}}`
+`autoconf --force --output {{outfile}} {{template-file}}`

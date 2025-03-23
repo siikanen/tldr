@@ -3,7 +3,7 @@
 > JavaScript and TypeScript compiler written in Rust.
 > More information: <https://swc.rs>.
 
-- Transpile a specified input file and output to stdout:
+- Transpile a specified input file and output to `stdout`:
 
 `swc {{path/to/file}}`
 
@@ -25,4 +25,4 @@
 
 - Ignore files in a directory specified using glob path:
 
-`swc {{path/to/input_directory}} --ignore {{ignored_files}}`
+`swc {{path/to/input_directory}} --ignore {{path/to/ignored_file1 path/to/ignored_file2 ...}}`

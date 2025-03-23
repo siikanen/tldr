@@ -5,32 +5,32 @@
 
 - Create an image from a file using default settings:
 
-`carbon-now {{file}}`
+`carbon-now {{path/to/file}}`
 
 - Create an image from a text in clipboard using default settings:
 
 `carbon-now --from-clipboard`
 
-- Create an image from standard input using default settings:
+- Create an image from `stdin` using default settings and copy to the clipboard:
 
-`{{input}} | carbon-now`
+`{{input}} | carbon-now --to-clipboard`
 
-- Create images interactively for custom settings and optionally save a preset:
+- Create images [i]nteractively for custom settings and optionally save a preset:
 
-`carbon-now -i {{file}}`
+`carbon-now -i {{path/to/file}}`
 
-- Create images from previously saved preset:
+- Create images from a previously saved [p]reset:
 
-`carbon-now -p {{preset}} {{file}}`
+`carbon-now -p {{preset}} {{path/to/file}}`
 
-- Start at a specified line of text:
+- [s]tart at a specified line of text:
 
-`carbon-now -s {{line}} {{file}}`
+`carbon-now -s {{line}} {{path/to/file}}`
 
-- End at a specific line of text:
+- [e]nd at a specific line of text:
 
-`carbon-now -e {{line}} {{file}}`
+`carbon-now -e {{line}} {{path/to/file}}`
 
 - Open image in a browser instead of saving:
 
-`carbon-now --open {{file}}`
+`carbon-now --open {{path/to/file}}`

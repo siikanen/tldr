@@ -9,24 +9,24 @@
 
 - Navigate the piece horizontally:
 
-`{{Left|Right}} arrow key`
+`{{<ArrowLeft>|<ArrowRight>}}`
 
 - Rotate the piece clockwise or counterclockwise:
 
-`{{Spacebar|Up arrow key}}`
+`{{<Space>|<ArrowUp>}}`
 
 - Soft drop the piece:
 
-`Down arrow key`
+`<ArrowDown>`
 
 - Hard drop the piece:
 
-`Enter`
+`<Enter>`
 
 - Pause the game:
 
-`p`
+`<p>`
 
 - Quit the game:
 
-`Ctrl + C`
+`<Ctrl c>`

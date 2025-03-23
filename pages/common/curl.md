@@ -1,37 +1,37 @@
 # curl
 
 > Transfers data from or to a server.
-> Supports most protocols, including HTTP, FTP, and POP3.
-> More information: <https://curl.se>.
+> Supports most protocols, including HTTP, HTTPS, FTP, SCP, etc.
+> More information: <https://curl.se/docs/manpage.html>.
 
-- Download the contents of a URL to a file:
+- Make an HTTP GET request and dump the contents in `stdout`:
 
-`curl {{http://example.com}} --output {{filename}}`
+`curl {{https://example.com}}`
+
+- Make an HTTP GET request, follow any `3xx` redirects, and dump the reply headers and contents to `stdout`:
+
+`curl {{[-L|--location]}} {{[-D|--dump-header]}} - {{https://example.com}}`
 
 - Download a file, saving the output under the filename indicated by the URL:
 
-`curl --remote-name {{http://example.com/filename}}`
+`curl {{[-O|--remote-name]}} {{https://example.com/filename.zip}}`
 
-- Download a file, following location redirects, and automatically continuing (resuming) a previous file transfer and return an error on server error:
+- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from `stdin`:
 
-`curl --fail --remote-name --location --continue-at - {{http://example.com/filename}}`
+`curl {{[-X|--request]}} POST {{[-d|--data]}} {{'name=bob'}} {{http://example.com/form}}`
 
-- Send form-encoded data (POST request of type `application/x-www-form-urlencoded`). Use `--data @file_name` or `--data @'-'` to read from STDIN:
+- Send a request with an extra header, using a custom HTTP method and over a proxy (such as BurpSuite), ignoring insecure self-signed certificates:
 
-`curl --data {{'name=bob'}} {{http://example.com/form}}`
+`curl {{[-k|--insecure]}} {{[-x|--proxy]}} {{http://127.0.0.1:8080}} {{[-H|--header]}} {{'Authorization: Bearer token'}} {{[-X|--request]}} {{GET|PUT|POST|DELETE|PATCH|...}} {{https://example.com}}`
 
-- Send a request with an extra header, using a custom HTTP method:
+- Send data in JSON format, specifying the appropriate Content-Type header:
 
-`curl --header {{'X-My-Header: 123'}} --request {{PUT}} {{http://example.com}}`
-
-- Send data in JSON format, specifying the appropriate content-type header:
-
-`curl --data {{'{"name":"bob"}'}} --header {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
-
-- Pass a username and password for server authentication:
-
-`curl --user myusername:mypassword {{http://example.com}}`
+`curl {{[-d|--data]}} {{'{"name":"bob"}'}} {{[-H|--header]}} {{'Content-Type: application/json'}} {{http://example.com/users/1234}}`
 
 - Pass client certificate and key for a resource, skipping certificate validation:
 
-`curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+`curl {{[-E|--cert]}} {{client.pem}} --key {{key.pem}} {{[-k|--insecure]}} {{https://example.com}}`
+
+- Resolve a hostname to a custom IP address, with verbose output (similar to editing the `/etc/hosts` file for custom DNS resolution):
+
+`curl {{[-v|--verbose]}} --resolve {{example.com}}:{{80}}:{{127.0.0.1}} {{http://example.com}}`

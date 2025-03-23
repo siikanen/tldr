@@ -3,7 +3,7 @@
 > Ultra fast search tool with query TUI.
 > More information: <https://github.com/Genivia/ugrep>.
 
-- Start a query TUI to search files in the current directory recursively (CTRL-Z for help):
+- Start a query TUI to search files in the current directory recursively (`<Ctrl z>` for help):
 
 `ugrep --query`
 
@@ -23,7 +23,7 @@
 
 `ugrep --fuzzy={{3}} "{{search_pattern}}"`
 
-- Also search compressed files, `zip` and `tar` archives recursively:
+- Also search compressed files, Zip and tar archives recursively:
 
 `ugrep --decompress "{{search_pattern}}"`
 

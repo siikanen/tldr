@@ -1,7 +1,7 @@
 # warpd
 
 > A modal keyboard driven pointer manipulation program.
-> More information: <https://github.com/rvaiya/warpd/blob/master/man.md>.
+> More information: <https://github.com/rvaiya/warpd/blob/master/warpd.1.md>.
 
 - Run warpd in normal mode:
 
@@ -13,20 +13,20 @@
 
 - Move cursor left:
 
-`h`
+`<h>`
 
 - Move cursor down:
 
-`j`
+`<j>`
 
 - Move cursor up:
 
-`k`
+`<k>`
 
 - Move cursor right:
 
-`l`
+`<l>`
 
 - Emulate left click:
 
-`m`
+`<m>`

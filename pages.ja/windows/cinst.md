@@ -1,7 +1,6 @@
 # cinst
 
-> このコマンドは `choco install` のエイリアスです.
-> 詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/install>
+> このコマンドは `choco install` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

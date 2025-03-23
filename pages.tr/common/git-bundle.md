@@ -1,7 +1,7 @@
 # git bundle
 
 > Cisim ve referansları bir arşive paketle.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-bundle>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-bundle>.
 
 - Belirtilmiş bir dalın tüm cisim ve referanslarını içeren bir paket dosyası oluştur:
 
@@ -13,11 +13,11 @@
 
 - Mevcut daldaki en son 5 commit için bir paket dosyası oluştur:
 
-`git bundle create {{örnek/dosya.bundle}} -{{5}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} -5 {{HEAD}}`
 
 - Son 7 günü içeren bir paket dosyası oluştur:
 
-`git bundle create {{örnek/dosya.bundle}} --since={{7.days}} {{HEAD}}`
+`git bundle create {{örnek/dosya.bundle}} --since=7.days {{HEAD}}`
 
 - Bir paket dosyasının geçerli olduğunu ve mevcut depoya uygulanabileceğini doğrula:
 

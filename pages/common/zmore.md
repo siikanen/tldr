@@ -1,6 +1,6 @@
 # zmore
 
-> View gzip compressed files with `more`.
+> View `gzip` compressed files with `more`.
 > More information: <https://manned.org/zmore>.
 
 - Open a compressed file:
@@ -11,14 +11,14 @@
 
 `<Space>`
 
-- Search for a pattern in the file (press `n` to go to next match):
+- Search for a pattern in the file (press `<n>` to go to next match):
 
-`/{{regular_expression}}`
+`</>{{regular_expression}}`
 
 - Exit:
 
-`q`
+`<q>`
 
 - Display interactive command help:
 
-`h`
+`<h>`

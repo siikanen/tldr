@@ -10,15 +10,15 @@
 
 - Enter insert mode from normal mode, to write text into the file:
 
-`i`
+`<i>`
 
 - Escape insert mode, to go back to normal mode:
 
-`<Escape>`
+`<Esc>`
 
 - Replace all instances of "foo" in the current file with "bar":
 
-`%s{{foo}}<Enter>c{{bar}}<Escape>`
+`%s{{foo}}<Enter>c{{bar}}<Esc>`
 
 - Unselect all secondary selections, and keep only the main one:
 
@@ -30,8 +30,8 @@
 
 - Insert the contents of a file:
 
-`!cat {{path/to/file}}<Enter>`
+`<!>cat {{path/to/file}}<Enter>`
 
 - Save the current file:
 
-`:w<Enter>`
+`<:>w<Enter>`

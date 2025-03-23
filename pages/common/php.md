@@ -5,11 +5,11 @@
 
 - Parse and execute a PHP script:
 
-`php {{file}}`
+`php {{path/to/file}}`
 
 - Check syntax on (i.e. lint) a PHP script:
 
-`php -l {{file}}`
+`php -l {{path/to/file}}`
 
 - Run PHP interactively:
 
@@ -23,7 +23,7 @@
 
 `php -S {{host:port}}`
 
-- Get a list of installed PHP extensions:
+- List installed PHP extensions:
 
 `php -m`
 

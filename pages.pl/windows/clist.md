@@ -1,8 +1,7 @@
 # clist
 
-> Te polecenie jest aliasem `choco list`.
-> Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list>.
+> To polecenie jest aliasem `choco list`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr choco list`

@@ -1,7 +1,7 @@
 # git merge
 
 > Dalları birleştir.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-merge>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-merge>.
 
 - Mevcut dal ile belirtilen dalı birleştir:
 
@@ -9,7 +9,7 @@
 
 - Birleştirme mesajını düzenle:
 
-`git merge -e {{dal_ismi}}`
+`git merge {{-e|--show-email}} {{dal_ismi}}`
 
 - Bir dalı birleştir ve birleştirme commit'i oluştur:
 

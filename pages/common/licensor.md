@@ -1,6 +1,6 @@
 # licensor
 
-> Write licenses to stdout.
+> Write licenses to `stdout`.
 > More information: <https://github.com/raftario/licensor>.
 
 - Write the MIT license to a file named `LICENSE`:
@@ -13,7 +13,7 @@
 
 - Specify a copyright holder named Bobby Tables:
 
-`licensor {{MIT}} {{"Bobby Tables"}} > {{LICENSE}}`
+`licensor {{MIT}} "{{Bobby Tables}}" > {{LICENSE}}`
 
 - Specify licence exceptions with a WITH expression:
 

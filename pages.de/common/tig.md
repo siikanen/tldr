@@ -1,7 +1,7 @@
 # tig
 
 > Eine interaktive Kommandozeilenoberfläche für Git.
-> Weitere Informationen: <https://github.com/jonas/tig>.
+> Weitere Informationen: <https://jonas.github.io/tig/doc/manual.html>.
 
 - Zeige die Commits des aktuellen Branches:
 
@@ -13,7 +13,7 @@
 
 - Zeige die Commits von bestimmten Dateien oder Verzeichnissen:
 
-`tig {{pfad1 pfad2 …}}`
+`tig {{pfad1 pfad2 ...}}`
 
 - Zeige die Unterschiede zwischen zwei Referenzen (wie z.B. Branches oder Tags):
 

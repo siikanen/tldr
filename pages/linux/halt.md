@@ -1,7 +1,7 @@
 # halt
 
 > Halt the system.
-> More information: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+> More information: <https://manned.org/halt.8>.
 
 - Halt the system:
 
@@ -9,7 +9,7 @@
 
 - Power off the system (same as `poweroff`):
 
-`halt --poweroff`
+`halt {{[-p|--poweroff]}}`
 
 - Reboot the system (same as `reboot`):
 
@@ -17,8 +17,8 @@
 
 - Halt immediately without contacting the system manager:
 
-`halt --force --force`
+`halt {{[-f|--force]}}`
 
 - Write the wtmp shutdown entry without halting the system:
 
-`halt --wtmp-only`
+`halt {{[-w|--wtmp-only]}}`

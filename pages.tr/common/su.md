@@ -1,7 +1,7 @@
 # su
 
 > Kabuk ortamında başka bir kullanıcıya geçiş yapın.
-> Daha fazla bilgi: <https://manned.org/su>.
+> Daha fazla bilgi için: <https://manned.org/su>.
 
 - Süper kullanıcıya geçin (kök şifresi gerektirir):
 
@@ -17,4 +17,4 @@
 
 - Başka bir kullanıcı olarak bir komut çalıştırın:
 
-`su - {{kullanıcıadı}} -c "{{komut}}"`
+`su - {{kullanıcıadı}} {{[-c|--command]}} "{{komut}}"`

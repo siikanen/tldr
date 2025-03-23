@@ -1,7 +1,7 @@
 # git apply
 
 > İndeks veya dosyalara yama uygula.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-apply>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-apply>.
 
 - Yamalanan dosyalarla ilgili mesajları yazdır:
 
@@ -13,7 +13,7 @@
 
 - Uzak yama dosyası uygula:
 
-`curl {{https://ornek.com/dosya.patch}} | git apply`
+`curl -L {{https://ornek.com/dosya.patch}} | git apply`
 
 - Çıktı için fark statistiği çıkar ve yamayı uygula:
 

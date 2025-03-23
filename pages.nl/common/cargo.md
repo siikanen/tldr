@@ -1,8 +1,8 @@
 # cargo
 
-> Rust pakketbeheerder.
 > Beheer Rust projecten en hun afhankelijkheden (crates).
-> Meer informatie: <https://crates.io/>.
+> Sommige subcommando's zoals `build` hebben een eigen documentatie pagina.
+> Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:
 
@@ -16,18 +16,22 @@
 
 `cargo install --list`
 
-- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de huidige map:
+- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map. (Standaard is de huidige map):
 
-`cargo init --{{bin|lib}}`
+`cargo init --{{bin|lib}} {{pad/naar/map}}`
 
-- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map:
+- Voeg een afhankelijkheid toe aan `Cargo.toml` in de huidge map:
 
-`cargo new {{pad/naar/map}} --{{bin|lib}}`
+`cargo add {{afhankelijkheid}}`
 
-- Bouw het Rust-project in de huidige map:
+- Bouw het Rust-project in de huidige map door gebruik te maken van het release-profiel:
 
-`cargo build`
+`cargo {{[b|build]}} {{[-r|--release]}}`
+
+- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
+
+`cargo +nightly {{[b|build]}}`
 
 - Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
 
-`cargo build --jobs {{aantal_taken}}`
+`cargo {{[b|build]}} --jobs {{aantal_taken}}`

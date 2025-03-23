@@ -9,16 +9,12 @@
 
 - Visualizza la gerarchia USB come un albero:
 
-`lsusb -t`
+`lsusb {{[-t|--tree]}}`
 
 - Elenca informazioni prolisse riguardo ai dispositivi USB:
 
-`lsusb --verbose`
+`lsusb {{[-V|--verbose]}}`
 
-- Elenca informazioni dettagliate riguardo ad un dispositivo USB:
-
-`lsusb -D {{dispositivo}}`
-
-- Elenca solamente i dispositivi con un certo id fornitore e id prodotto:
+- Elenca solamente i dispositivi con un certo id fornitore e ID prodotto:
 
 `lsusb -d {{fornitore}}:{{prodotto}}`

@@ -1,7 +1,7 @@
 # git svn
 
 > Bir alt sürüm deposu ve Git arasında çift yönlü operasyon.
-> Daha fazla bilgi: <https://git-scm.com/docs/git-svn>.
+> Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
 
 - Bit SVN deposunu klonla:
 
@@ -9,7 +9,7 @@
 
 - Bir SVN deposunu belirtilen düzenleme numarasından başlayarak klonla:
 
-`git svn clone -r{{1234}}:HEAD {{https://svn.ornek.net/altsürüm/depo}} {{yerel_dizin}}`
+`git svn clone {{[-r|--revision]}} {{1234}}:HEAD {{https://svn.ornek.net/altsürüm/depo}} {{yerel_dizin}}`
 
 - Uzak SVN deposundan yerel klonu güncelle:
 
@@ -21,4 +21,4 @@
 
 - SVN deposuna geri commit'le:
 
-`git svn dcommit`
+`git svn commit`

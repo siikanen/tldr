@@ -1,15 +1,15 @@
 # osascript
 
-> Run AppleScript or JavaScript for Automation (JXA) from the command-line.
-> More information: <https://ss64.com/osx/osascript.html>.
+> Run AppleScript or JavaScript for Automation (JXA).
+> More information: <https://keith.github.io/xcode-man-pages/osascript.1.html>.
 
 - Run an AppleScript command:
 
-`osascript -e "{{say 'Hello world'}}"`
+`osascript -e '{{say "Hello world"}}'`
 
 - Run multiple AppleScript commands:
 
-`osascript -e "{{say 'Hello'}}" -e "{{say 'world'}}"`
+`osascript -e '{{say "Hello"}}' -e '{{say "world"}}'`
 
 - Run a compiled (`*.scpt`), bundled (`*.scptd`), or plaintext (`*.applescript`) AppleScript file:
 

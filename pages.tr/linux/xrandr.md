@@ -1,11 +1,11 @@
 # xrandr
 
 > Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla.
-> Daha fazla bilgi: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
+> Daha fazla bilgi için: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Sistemin mevcut durumunu göster (bilinen ekranlar, çözünürlükler, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Bağlantısı kesilmiş çıkışları devre dışı bırak ve bağlanmış olanları varsayılan ayarlar ile devreye sok:
 

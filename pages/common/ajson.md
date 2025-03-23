@@ -1,13 +1,13 @@
 # ajson
 
-> Executes JSONPath on JSON objects.
+> Execute JSONPath on JSON objects.
 > More information: <https://github.com/spyzhov/ajson>.
 
 - Read JSON from a file and execute a specified JSONPath expression:
 
 `ajson '{{$..json[?(@.path)]}}' {{path/to/file.json}}`
 
-- Read JSON from stdin and execute a specified JSONPath expression:
+- Read JSON from `stdin` and execute a specified JSONPath expression:
 
 `cat {{path/to/file.json}} | ajson '{{$..json[?(@.path)]}}'`
 

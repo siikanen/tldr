@@ -1,7 +1,6 @@
 # cuninst
 
-> このコマンドは `choco uninstall` のエイリアスです.
-> 詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>
+> このコマンドは `choco uninstall` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

@@ -5,20 +5,20 @@
 
 - Aggiungi un file all'area di stage:
 
-`git add {{percorso/al/file}}`
+`git add {{percorso/del/file}}`
 
 - Aggiungi tutti i file (tracciati e non tracciati):
 
-`git add -A`
+`git add {{[-A|--all]}}`
 
 - Aggiungi solo i file già tracciati:
 
-`git add -u`
+`git add {{[-u|--update]}}`
 
 - Aggiungi anche i file ignorati:
 
-`git add -f`
+`git add {{[-f|--force]}}`
 
 - Aggiungi parti di un file in modo interattivo:
 
-`git add -p {{percorso/al/file}}`
+`git add {{[-p|--patch]}} {{percorso/del/file}}`

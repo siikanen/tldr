@@ -5,7 +5,7 @@
 
 - Display the current state of the system (known screens, resolutions, ...):
 
-`xrandr --query`
+`xrandr {{[-q|--query]}}`
 
 - Disable disconnected outputs and enable connected ones with default settings:
 
@@ -26,3 +26,7 @@
 - Set the brightness for LVDS1 to 50%:
 
 `xrandr --output {{LVDS1}} --brightness {{0.5}}`
+
+- Display the current state of any X server:
+
+`xrandr {{[-d|--display]}} :{{0}} {{[-q|--query]}}`

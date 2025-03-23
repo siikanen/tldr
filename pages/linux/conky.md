@@ -11,7 +11,7 @@
 
 `conky -C > ~/.conkyrc`
 
-- Launch Conky with a given config file:
+- Launch Conky with a given configuration file:
 
 `conky -c {{path/to/config}}`
 
@@ -21,7 +21,7 @@
 
 - Align Conky on the desktop:
 
-`conky -a {{{top,bottom,middle}_{left,right,middle}}}`
+`conky -a {{top|bottom|middle}}_{{left|right|middle}}`
 
 - Pause for 5 seconds at startup before launching:
 

@@ -1,6 +1,6 @@
 # fdisk
 
-> A program for managing partition tables and partitions on a hard disk.
+> Manage partition tables and partitions on a hard disk.
 > See also: `partprobe`.
 > More information: <https://manned.org/fdisk>.
 
@@ -14,24 +14,24 @@
 
 - Once partitioning a disk, create a partition:
 
-`n`
+`<n>`
 
 - Once partitioning a disk, select a partition to delete:
 
-`d`
+`<d>`
 
 - Once partitioning a disk, view the partition table:
 
-`p`
+`<p>`
 
 - Once partitioning a disk, write the changes made:
 
-`w`
+`<w>`
 
 - Once partitioning a disk, discard the changes made:
 
-`q`
+`<q>`
 
 - Once partitioning a disk, open a help menu:
 
-`m`
+`<m>`
